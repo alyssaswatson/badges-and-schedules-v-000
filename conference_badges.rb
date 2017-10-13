@@ -12,11 +12,11 @@ def batch_badge_creator(people)
    badges
  end
 
-def assign_rooms(name)
+def assign_rooms(person)
   rooms = []
-  name.each do |names, room|
+  person.each do |name, room|
      room +=1
-     rooms << "Hello, #{names}! You'll be assigned to room #{room}!"
+     rooms << "Hello, #{name}! You'll be assigned to room #{room}!"
   end
   rooms
 end
