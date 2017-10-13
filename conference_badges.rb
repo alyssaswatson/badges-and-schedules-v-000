@@ -1,5 +1,5 @@
 # Write your code here.
 
-def batch_badge_creator(name)
+def batch_maker(name)
   "Hello, my name is #{name}."
 end
