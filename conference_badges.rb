@@ -12,7 +12,7 @@ def batch_badge_creator(people)
    new_badges
  end
 
- def assign_rooms(name)
+ def assign_rooms(attendees)
    rooms = []
    batch_badge_creator(people).each do |names, room|
       room +=1
