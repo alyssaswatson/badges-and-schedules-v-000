@@ -11,4 +11,3 @@ def batch_badge_creator(people)
    end
    badges
  end
-
